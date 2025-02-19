@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Category Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header-dropdown.css"/>
+</head>
+
+<body>
+
+  <header>
+    <div id="top_header" class="container-grid space-between-grid">
+      <div class="container-grid"style="max-width: 300px; width: 300px; min-width: 300px;>
+        <a href="index.html">
+          <object data="assets/Background.svg" type="image/svg+xml" class="logo" style="pointer-events: none;">
+          </object>
+        </a>
+      </div>
+      <div class="container-grid">
+        <div class="container">
+          <a href="index.html">
+            <button class="button-nav" type="button">Home</button>
+          </a>
+          <div class="divider-none"></div>
+          </div>
+        <div class="container">
+          <div class="dropdown">
+            <button class="dropbtn" style="font-weight: bold;">Category
+              <object data="assets/arrow-down.svg" type="image/svg+xml"
+              style="width: auto; height: 25px;">
+            </object>
+            </button>
+            <div class="dropdown-content">
+              <a href="category.html?categoty=all">All</a>
+              <a href="category.html?categoty=fiction">Fiction</a>
+              <a href="category.html?categoty=classic">Classic</a>
+              <a href="category.html?categoty=thriller">Thriller</a>
+            </div>
+          </div> 
+          <div class="divider-selected" style="margin-right: 30px;"></div>
+        </div>
+      </div>
+      <div class="container-grid search-container space-between-grid center-self">
+        <select class="search-dropdown">
+          <option value="all">All</option>
+          <option value="fiction">Fiction</option>
+          <option value="classic">Classic</option>
+          <option value="thriller">Thriller</option>
+        </select>
+        <div class="divider-verticle margin-end"></div>
+        <input type="text" class="search-input" placeholder="find the book you like..." />
+        <div type="button" class="search-button container-grid">
+          <object data="assets/search.svg" type="image/svg+xml" class="icon"></object>
+        </div>
+      </div>
+      <div></div>
+      <div class="container-grid">
+        <button class="button-nav button-nav-selected header-button" type="button">
+          <div>
+            <p style="margin: 5px;">Hello,</p>
+            <p style="margin: 5px;">Sarthak Raut</p>
+          </div>
+        </button>
+        <div class="divider-verticle" style="margin-left: 10px; margin-right: 10px; height: 45px;"></div>
+        <div class="container-grid">
+          <button class="button-nav button-nav-selected header-button" type="button">
+            <object data="assets/logout.svg" type="image/svg+xml" class="icon"></object>
+            Logout
+          </button>
+        </div>
+      </div>
+      <div class="container-grid" style="margin-top: 5px; margin-right: 20px;">
+        <button class="button-nav button-nav-selected header-button" type="button">
+          <div class="cart-icon-container">
+            <object data="assets/cart.svg" type="image/svg+xml" class="cart-icon"></object>
+            <div class="circle">5</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding: 0px;">
+    <div class="container" style="width: 100%; height: 100%; justify-content: flex-start;">
+        <div class="container-grid" style="width: 100%; height: auto; padding-top: 10px;">
+            <div class="container">
+                <button class="button-nav" type="button">All</button>
+                <div class="divider-none"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav button-nav-selected" type="button">Classics</button>
+                <div class="divider-selected"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav" type="button">Fictional</button>
+                <div class="divider-none"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav" type="button">Thriller</button>
+                <div class="divider-none"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav" type="button">Sci-Fi</button>
+                <div class="divider-none"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav" type="button">Fantasy</button>
+                <div class="divider-none"></div>
+            </div>
+            <div class="container">
+                <button class="button-nav" type="button">Philosophy</button>
+                <div class="divider-none"></div>
+            </div>
+        </div>
+        <div class="container" style="width: 90%; height: 100%;">
+            <div class="grid-container">
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_1.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Bear-Tooth</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_2.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Going Home</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_3.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Holly</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_4.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">We All Live Here</p>
+                        <P class="home-book-author">by: JoJo Moyes</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_5.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                        <button class="add-cart-button" style="margin: 20px; width: 80%;">Read Now</button>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">The Contenintal divide</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_6.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Invisible Man</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_7.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                        <button class="add-cart-button" style="margin: 20px; width: 80%;">Read Now</button>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">I Who Have Never Known Men</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_8.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Quicksilver</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_9.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">The Rose Bargain</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_10.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">First-Time Caller</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_11.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">Sally Rooney</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="container grid-item">
+                    <div class="container cat-book-coveer">
+                        <img src="assets/books/img_12.jpg" width="100%" height="100%"></img>
+                        <p>$50</p>
+                    </div>
+                    <div class="container home-book cat-book">
+                        <p class="home-book-title">GLINI</p>
+                        <P class="home-book-author">by: H. D. Carlton</P>
+                        <div class="container-grid" style="margin-top: 0.3vh; margin-bottom: 1vh;">
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+                          <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+                        </div>
+                    </div>
+                    <button class="add-cart-button">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </main>
+
+  <footer>
+    <div id="top_header" class="container-grid panel-footer center-grid" style="align-items: center;">
+      <p class="footer-style-text">&copy; 2025 StoryBook. All rights reserved.</p>
+      <a href="https://www.facebook.com/pg/facebook" target="_blank" class="footer-style-text">Contacts</a>
+      <a href="https://www.facebook.com/pg/facebook" target="_blank" class="footer-style-text">Directions</a>
+      <button type="button" class="footer-button-style">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
+          <object data="assets/facebook.svg" type="image/svg+xml" style="width: 22px; height: 22px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+      <button type="button" class="footer-button-style" style="margin-top: 2px;">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.x.com/">
+          <object data="assets/twitter.svg" type="image/svg+xml" style="width: 25px; height: 25px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+      <button type="button" class="footer-button-style">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
+          <object data="assets/instagram.svg" type="image/svg+xml" style="width: 28px; height: 28px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

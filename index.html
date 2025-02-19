@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/header-dropdown.css"/>
+</head>
+
+<body>
+
+  <header>
+    <div id="top_header" class="container-grid space-between-grid">
+      <div class="container-grid" style="max-width: 300px; width: 300px; min-width: 300px;">
+        <a href="index.html">
+          <object data="assets/Background.svg" type="image/svg+xml" class="logo" style="pointer-events: none;"></object>
+        </a>
+      </div>
+      <div class="container-grid">
+        <div class="container">
+          <a href="index.html">
+            <button class="button-nav button-nav-selected" type="button">
+              Home
+            </button>
+          </a>
+          <div class="divider-selected"></div>
+        </div>
+        <div class="container">
+          <div class="dropdown">
+            <button class="dropbtn">Category
+              <object data="assets/arrow-down.svg" type="image/svg+xml"
+              style="width: auto; height: 25px;">
+            </object>
+            </button>
+            <div class="dropdown-content">
+              <a href="category.html?categoty=all">All</a>
+              <a href="category.html?categoty=fiction">Fiction</a>
+              <a href="category.html?categoty=classic">Classic</a>
+              <a href="category.html?categoty=thriller">Thriller</a>
+            </div>
+          </div> 
+          <div class="divider-none"></div>
+        </div>
+      </div>
+      <div class="container-grid search-container space-between-grid center-self">
+        <select class="search-dropdown">
+          <option value="all">All</option>
+          <option value="fiction">Fiction</option>
+          <option value="classic">Classic</option>
+          <option value="thriller">Thriller</option>
+        </select>
+        <div class="divider-verticle margin-end"></div>
+        <input type="text" class="search-input" placeholder="find the book you like..." />
+        <div type="button" class="search-button container-grid">
+          <object data="assets/search.svg" type="image/svg+xml" class="icon"></object>
+        </div>
+      </div>
+      <div></div>
+      <div class="container-grid">
+        <button class="button-nav button-nav-selected header-button" type="button">
+          <div>
+            <p style="margin: 5px;">Hello,</p>
+            <p style="margin: 5px;">Sarthak Raut</p>
+          </div>
+        </button>
+        <div class="divider-verticle" style="margin-left: 10px; margin-right: 10px; height: 45px;"></div>
+        <div class="container-grid">
+          <button class="button-nav button-nav-selected header-button" type="button">
+            <object data="assets/logout.svg" type="image/svg+xml" class="icon"></object>
+            Logout
+          </button>
+        </div>
+      </div>
+      <div class="container-grid" style="margin-top: 5px; margin-right: 20px;">
+        <button class="button-nav button-nav-selected header-button" type="button">
+          <div class="cart-icon-container">
+            <object data="assets/cart.svg" type="image/svg+xml" class="cart-icon"></object>
+            <div class="circle">5</div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </header>
+
+
+  <main style="padding: 0px; padding-left: 80px; padding-right: 0px;">
+    <div class="container" style="width: 100%; height: 100%; justify-content: center;">
+      <div class="container-grid" style="width: 100%; height: 50%;">
+        <div class="container home-find-main">
+          <div class="container-grid home-find-bold">
+            <object data="assets/background_tree.svg" type="image/svg+xml"
+              style="width: 5vh; height: 10vh; cursor: pointer; margin-bottom: 20px; margin-right: 10px;">
+            </object>
+            <h1 class="home-find-title">Find Your</h1>
+          </div>
+          <h1 class="home-find-title" style="margin-top: -15px;">Next Book</h1>
+          <P class="home-find-sub" style="margin-top: 10px;">Step into a space where the right book finds you.</P>
+          <P class="home-find-sub" style="margin-left: 0px;">Browse shelves filled with stories. Find the story that
+            speaks to you.</P>
+          <a href="category.html?categoty=all">
+            <button class="shop-now-button">Shop Now</button>
+          </a>
+        </div>
+        <div class="container-grid center" style="width: 60%; height: 100%;">
+          <div class="container home-featured-main">
+            <img src="assets/books/book_3.jpg" width="100%" height="90%" class="home-fea-top-img"></img>
+            <P class="home-fea-title" style="margin-top: 10px;">The Handmaid's Tale</P>
+            <P class="home-fea-sub">Margaret Atwood</P>
+          </div>
+          <div class="container home-featured-main">
+            <P class="home-fea-title">Animal Farm</P>
+            <P class="home-fea-sub" style="margin-bottom: 10px;">George Orwell</P>
+            <img src="assets/books/book_2.jpg" width="100%" height="90%" class="home-fea-bottom-img"></img>
+          </div>
+          <div class="container home-featured-main">
+            <img src="assets/books/book_0.jpg" width="100%" height="90%" class="home-fea-top-img"></img>
+            <P class="home-fea-title" style="margin-top: 10px;">Accidentally Amy</P>
+            <P class="home-fea-sub">Lynn Painter</P>
+          </div>
+          <div class="container home-featured-main">
+            <P class="home-fea-title">1984</P>
+            <P class="home-fea-sub" style="margin-bottom: 10px;">George Orwell</P>
+            <img src="assets/books/book_1.jpg" width="100%" height="90%" class="home-fea-bottom-img"></img>
+          </div>
+          <div class="container" style="margin-left: 40px;">
+            <span class="dot" style="background-color: #885265;"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="width: 100%; height: 40%; padding-top: 0vh; padding-bottom: 20px;">
+        <div class="container-grid space-between-grid" style="width: 100%; height: 10%; padding-bottom: 8px;">
+          <h1 class="home-book-category">Bestseller</h1>
+          <h1 class="home-book-small">View All</h1>
+        </div>
+        <div class="container-grid" style="width: 100%; height: 90%; justify-content: space-between; padding: 0px;">
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_13.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">The Women</p>
+            <P class="home-book-author">by: Kristin Hannah</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_14.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">1986</p>
+            <P class="home-book-author">by: George Orwell</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_15.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">Quicksilver</p>
+            <P class="home-book-author">by: Callie Hart</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_16.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">Brave New world</p>
+            <P class="home-book-author">by: Aldous Huxley</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_17.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">Haunting adeline</p>
+            <P class="home-book-author">by: H. D. Carlton</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div style="width: 100%; height: 75%;">
+              <img src="assets/books/img_18.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">Alchemised</p>
+            <P class="home-book-author">by: SenLin Yu</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="container home-book">
+            <div class="home-book-cover">
+              <img src="assets/books/img_19.jpg" width="100%" height="100%">
+              </img>
+            </div>
+            <p class="home-book-title">Martyr!</p>
+            <P class="home-book-author">by: Kaveh Akbar</P>
+            <div class="container-grid" style="margin-top: 0.5vh;">
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_full.svg" type="image/svg+xml" class="home-star-icon"></object>
+              <object data="assets/star_half.svg" type="image/svg+xml" class="home-star-icon"></object>
+            </div>
+          </div>
+          <div class="home-right-arrow">
+            <object data="assets/right_arrow.svg" type="image/svg+xml" class="home-right-arrow-img"></object>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div id="top_header" class="container-grid panel-footer center-grid" style="align-items: center;">
+      <p class="footer-style-text">&copy; 2025 StoryBook. All rights reserved.</p>
+      <a href="https://www.facebook.com/pg/facebook" target="_blank" class="footer-style-text">Contacts</a>
+      <a href="https://www.facebook.com/pg/facebook" target="_blank" class="footer-style-text">Directions</a>
+      <button type="button" class="footer-button-style">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">
+          <object data="assets/facebook.svg" type="image/svg+xml" style="width: 22px; height: 22px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+      <button type="button" class="footer-button-style" style="margin-top: 2px;">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.x.com/">
+          <object data="assets/twitter.svg" type="image/svg+xml" style="width: 25px; height: 25px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+      <button type="button" class="footer-button-style">
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">
+          <object data="assets/instagram.svg" type="image/svg+xml" style="width: 28px; height: 28px; cursor: pointer; pointer-events: none;">
+          </object>
+        </a>
+      </button>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
