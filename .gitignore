@@ -32,3 +32,46 @@ logs/
 *.tmp
 
 book-store.zip
+
+credits.html
+locales/
+libEGL.dll
+libGLEv2.dll
+node.dll
+nw.dll
+nw.exe
+natives_blob.bin
+nw_100_percent.pak
+nw_200_percent.pak
+nw_elf.dll
+snapshot_blob.bin
+resources.pak
+
+# Seen only in standard
+d3dcompiler_47.dll
+ffmpeg.dll
+icudtl.dat
+
+# Seen only in sdk
+pnacl/
+chromedriver.exe
+nacl_irt_x86_64.nexe
+nwjc.exe
+payload.exe
+
+# App platform binaries and built files
+/platforms
+
+# protect api keys in setting json
+settings-production.json
+settings.json
+
+# protect your mup.json settings
+mup.json
+mup.js
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
