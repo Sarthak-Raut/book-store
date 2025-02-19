@@ -30,3 +30,5 @@ logs/
 *.log
 *.bak
 *.tmp
+
+book-store.zip
